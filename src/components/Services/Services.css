@@ -1,0 +1,66 @@
+.ServicesItems{
+    padding: 30px 80px;
+    text-align:center;
+	background:#F2F4FF;
+	box-shadow:0 -17px 36px #727CA527;
+	position:relative;
+	margin:30px 0 80px 0;
+}
+.ServicesItems:after{
+	content:'';
+	position:absolute;
+	top:-30px;
+	left:35px;
+	right:35px;
+	background:#E5E8F5;
+	bottom:-30px;
+	z-index:-1;
+}
+.ServicesItems .title{
+    text-align: center;
+}
+.ServicesItems .title h2{
+    color:#727CA5;
+    font-weight:bold;
+    font-size:24px;
+    position:relative;
+    display:inline-block;
+    padding-bottom:15px;
+    margin-bottom: 20px
+}
+.ServicesItems .title h2::before{
+	content:'';
+	position:absolute;
+	width:25px;
+	height:5px;
+	background:#D5DAEB;
+	top:100%;
+	right:35%;
+	border-radius:100px;
+}
+.ServicesItems .items{
+    display: flex;
+    flex-wrap: wrap;
+}
+.ServicesItems .items .item{
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    width: 22%;
+    padding: 0 15px;
+}
+.ServicesItems .items .item .content a{
+    color:#727CA5;
+	font-size:24px;
+	font-weight:bold;
+	margin-bottom: 10px;
+	display:inline-block;
+	line-height:36px;
+	min-height:75px;
+	text-decoration:none;
+}
+.ServicesItems .items .item .content p{
+    color:#727CA5;
+	font-size:15px;
+	line-height:28px;
+}

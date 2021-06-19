@@ -1,0 +1,131 @@
+.Testmonialitems{
+	text-align:center;
+	padding: 50px 0;
+	width: 75%;
+	margin: auto;
+	background:url('../../assets/test-back.png') no-repeat center center;
+	background-size:100% 100%;
+}
+.Testmonialitems .title h2{
+	font-size:24px;
+	font-weight:bold;
+	color:#727CA5;
+	position:relative;
+    display:inline-block;
+   padding-bottom:15px;
+   margin-bottom: 20px;
+}
+.Testmonialitems .title h2:after{
+	content:'';
+	position:absolute;
+	width:25px;
+	height:5px;
+	background:#D5DAEB;
+	top:100%;
+	right:35%;
+	border-radius:100px;
+}
+.Testmonialitems .item p{
+	font-size:24px;
+	color:#394269;
+	font-weight:bold;
+	line-height:43px;
+	max-width:700px;
+	margin:0 auto;
+}
+.Testmonialitems .slick-arrow{
+	position:absolute;
+	bottom:15px;
+}
+.Testmonialitems .auther{
+	font-size:24px;
+	color:#394269;
+	line-height:43px;
+}
+.Testmonialitems .item .auther{
+	padding:10px 0;
+	margin-top:20px;
+	display: inline-block;
+	width: 100%;
+	position: relative;
+}
+.Testmonialitems .item .auther:after{
+	content:'';
+	position: absolute;
+	background:url('../../assets/shape-arr.png') no-repeat center;
+	background-size:100%;
+	width: 160%;
+	height: 100%;
+	left:-30%;
+	top:0;
+}
+.Testmonialitems .item .content .words{
+	position:relative;
+	padding:20px 0;
+}
+.Testmonialitems .item .content .words:before{
+	position:absolute;
+	content:'';
+	background:url('../../assets/quote.png') no-repeat center;
+	width:70px;
+	height:50px;
+	background-size:70%;
+	right:-7%;
+	top:-4%;
+}
+.Testmonialitems .item .content .words:after{
+	position:absolute;
+	content:'';
+	background:url('../../assets/quote.png') no-repeat center;
+	width:70px;
+	height:50px;
+	background-size:70%;
+	left:-7%;
+	bottom:0;
+	transform:rotate(180deg);
+}
+.Testmonialitems .slick-next {
+    font-size:0;
+    background:url('../../assets/left-arrow.png') no-repeat center;
+    background-size:70%;
+    width:25px;
+    height:40px;
+    border:none;
+    transform:rotateY(180deg);
+    right:8%;
+}
+.Testmonialitems .slick-prev {
+	 font-size:0;
+	 background:url('../../assets/left-arrow.png') no-repeat center;
+	 background-size:70%;
+	 width:25px;
+	 height:40px;
+	 border:none;
+	 left:8%;
+	 z-index: 11;
+}
+.Testmonialitems .slick-dots{
+   position:absolute;
+   width:100%;
+   bottom: -80px;
+}
+.slick-prev:before, .slick-next:before{
+	display: none;
+}
+.Testmonialitems .slick-dots button{
+	display: inline-block;
+    font-size: 0;
+    padding: 0;
+    width: 12px;
+    height: 12px;
+    background: transparent;
+    border: 3px solid #D5DAEB;
+    margin: 0 5px;
+    border-radius: 50%;
+}
+.Testmonialitems .slick-dots .slick-active  button{
+    background:#D5DAEB;;
+}
+.Testmonialitems .slick-dots button:before{
+	display: none;
+}

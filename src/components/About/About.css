@@ -1,0 +1,70 @@
+.about{
+	text-align:center;
+	position:relative;
+	background:url('../../assets/about1.png') no-repeat right top;
+	background-size:100%;
+	margin:0 200px;
+	margin-top: -70px;
+	z-index:111;
+	padding: 100px 0;
+}
+.about:after{
+	content:'';
+	position:absolute;
+	top:-30px;
+	left:35px;
+	right:35px;
+	background:url('../../assets/about2.png') no-repeat right top;
+	background-size:100%;
+	height:100%;
+	z-index:-1
+}
+.about .title h2{
+    color:#727CA5;
+    font-weight:bold;
+    font-size:24px;
+    position:relative;
+    display:inline-block;
+    padding-bottom:10px;
+ }
+ .about .title h2:after{
+	content:'';
+	position:absolute;
+	width:25px;
+	height:5px;
+	background:#DFB36A;
+	top:100%;
+	right:35%;
+	border-radius:100px;
+}
+.about .text p{
+	color:#394269;
+    font-size:25px;
+    line-height:45px;
+    width: 49%;
+    margin: 15px auto;
+}
+.about .text a{
+	color:#C2900C;
+	display:inline-block;
+	font-size:18px;
+	background:#fff;
+	position:relative;
+	padding:0 10px;
+	transition: all 0.3s ease-in-out;
+    text-decoration: none;
+}
+.about .text a:hover{
+	text-decoration:none;
+	color:#394269;
+}
+.about .text a:after{
+	content:'';
+	position:absolute;
+	width:130%;
+	height:2px;
+	background:#DFB36A;
+	top:58%;
+	right:-15%;
+	z-index:-1;
+}
