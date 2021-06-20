@@ -3,6 +3,7 @@ import { menuitems } from "./menuitems";
 import { socialsItem } from "./socialsItem"
 import logourl from '../../assets/logo.png';
 import './Header.css';
+import {Link} from 'react-router-dom';
 class Header extends React.Component{
     render(){
         return(
@@ -36,7 +37,9 @@ class Header extends React.Component{
                         </a>
                     </div>
                     <div className="nav-logo">
+                    <Link to="/">
                         <img src={logourl} />
+                        </Link>
                     </div>
                     <div className="socials">
                         <ul>
@@ -56,10 +59,10 @@ class Header extends React.Component{
                     <ul>
                         {menuitems.map((item,index) =>{
                             return(
-                                <li key={index}>
-                                    <a className={item.cName} href={item.url}>
-                                        {item.title}
-                                    </a>
+                                <li key={index} className={item.cName} >
+                                <Link to={item.url}>
+                                    {item.title}
+                                </Link>
                                 </li>
                             )
                         })}   

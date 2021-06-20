@@ -1,7 +1,7 @@
 export const menuitems=[
     {
         title:'خدمات الشركة',
-        url:"#",
+        url:"/Services",
         cName:'menu-links',
     },
     {
@@ -31,7 +31,7 @@ export const menuitems=[
     },
     {
         title:'اتصل بنا',
-        url:"#",
+        url:"/Contact",
         cName:'menu-links',
     },
 
