@@ -110,3 +110,9 @@
 .Projectsitems .slick-dots button:before{
 	display: none;
 }
+.visible-page{
+	display: none;
+ }
+ .hidden-page{
+	display: block;
+ }

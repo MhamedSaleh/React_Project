@@ -1,0 +1,11 @@
+.SubscriptionPage .contactForms{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.SubscriptionPage .contactForms .right{
+    width: 40%;
+}
+.SubscriptionPage .contactForms .left{
+    width: 60%;
+}

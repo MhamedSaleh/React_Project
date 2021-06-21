@@ -1,37 +1,37 @@
 export const menuitems=[
     {
         title:'خدمات الشركة',
-        url:"/Services",
+        url:"/ServicesPage",
         cName:'menu-links',
     },
     {
         title:'مشاريع الشركة',
-        url:"#",
+        url:"/ProjectsPage",
         cName:'menu-links',
     },
     {
         title:'الأشتراك',
-        url:"#",
+        url:"/SubscriptionPage",
         cName:'menu-links',
     },
     {
         title:'الرعاية',
-        url:"#",
+        url:"/carePage",
         cName:'menu-links',
     },
     {
         title:'صور',
-        url:"#",
+        url:"/imagesPage",
         cName:'menu-links',
     },
     {
         title:'فيديوهات',
-        url:"#",
+        url:"/VideosPage",
         cName:'menu-links',
     },
     {
         title:'اتصل بنا',
-        url:"/Contact",
+        url:"/ContactPage",
         cName:'menu-links',
     },
 

@@ -1,0 +1,36 @@
+.SubscriptionPage{
+    width: 100%;
+    padding: 40px 0;
+}
+.SubscriptionPage .items{
+    display: flex;
+}
+.SubscriptionPage .items .item{
+    width: 33.3333%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 230px;
+	padding: 40px 40px 20px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	border: 1px solid #e6e6e6;
+	-webkit-transition: .4s;
+	-o-transition: .4s;
+	-moz-transition: .4s;
+	transition: .4s;
+	overflow: hidden;
+	min-height: 216px;
+	background: #fff;
+	margin:0 10px;
+}
+.SubscriptionPage .items .item:hover{
+    -webkit-box-shadow: 0 8px 30px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0 8px 30px rgba(0,0,0,0.1);
+    box-shadow: 0 8px 30px rgba(0,0,0,0.1);
+}
+.SubscriptionPage .items .item a{
+    text-decoration: none;    
+}

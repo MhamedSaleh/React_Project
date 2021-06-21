@@ -1,0 +1,16 @@
+.projects_ .title{
+    display: none;
+}
+.projects_ .visible-page{
+   display: block !important;
+}
+.projects_ .hidden-page{
+   display: none !important;
+}
+.projects_ .items{
+    display: flex;
+    flex-wrap: wrap;
+}
+.projects_ .items .item{
+    width: 30.33333%;
+}

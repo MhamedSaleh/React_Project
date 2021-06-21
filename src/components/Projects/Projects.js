@@ -20,7 +20,7 @@ class Projects extends React.Component {
                     <p>تنظيم المعارض والمؤتمرات</p>
                 </div>
 
-                <div className="items"> 
+                <div className="items hidden-page"> 
                  <Slider {...settings}>
                     {Projectsitems.map((item,index) => (
                             <div key={index}>
@@ -41,6 +41,26 @@ class Projects extends React.Component {
                             )
                         )}   
                 </Slider>
+                </div>
+                <div className="items visible-page"> 
+                 <div className="items">
+                    {Projectsitems.map((item,index) => (
+                            <div key={index} className={item.cName}>
+                                <div className="image">
+                                    <img src={item.img} />
+                                </div>
+                                <div className="content">
+                                    <p>
+                                        {item.content}
+                                    </p>
+                                    <a href={item.url}>
+                                        {item.title}
+                                    </a>
+                                </div>
+                                </div>
+                            )
+                        )}   
+                </div>
                 </div>
             </nav>
         )
