@@ -1,11 +1,16 @@
-import React from 'react';
-class VideosPage extends React.Component{
-    render(){
-        return(
-               <div className="VideosPage">
-                   <h2>اتصل بنا</h2>
-                </div>
-        )
-    }
-}
-export default VideosPage
+ import React from 'react';
+ import Breadcrumb from '../components/Breadcrumb/Breadcrumb';
+
+ class VideosPage extends React.Component{
+     render(){
+  
+         return(
+            <><Breadcrumb />
+                <div className="VideosPage">
+                    
+                 </div>
+                 </>
+         )
+     }
+ }
+ export default VideosPage

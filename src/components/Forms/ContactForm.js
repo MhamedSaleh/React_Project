@@ -16,10 +16,12 @@ class Contactform extends React.Component {
           <label>
             <input type="text" placeholder="العنوان" />
           </label>
-          <label>
+          <label className="area">
             <textarea placeholder="رسالتك"  />
           </label>
+          <label className="send">
           <input type="submit" value="ارسال" />
+          </label>
         </form>
       );
     }

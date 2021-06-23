@@ -1,0 +1,13 @@
+.breadcrumb{
+	background:url('../../assets/bread.jpg') no-repeat center;
+	background-size:100%;
+	background-attachment: fixed;
+	padding: 80px 0;
+	justify-content: center;
+	border-radius:0;
+}
+.breadcrumb h2{
+	color:#fff;
+	font-weight:bold;
+    text-align: center;
+}

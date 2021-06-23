@@ -1,0 +1,21 @@
+.imagesPage{
+    padding: 30px 50px 30px 50px;
+    width: 95%;
+    margin: auto;
+}
+.imagesPage .items{
+    display: flex;
+    flex-wrap: wrap;
+}
+.imagesPage .items .item{
+    width: 31.3333%;
+    margin: 0 10px;
+    overflow: hidden;
+}
+.imagesPage .items .item .image{
+    width: 100%;
+}
+.imagesPage .items .item .image img{
+    width: 500px;
+    height: 300px;
+}
